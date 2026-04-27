@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f5f5f5;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #111;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: pink;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 60px;
+  background: linear-gradient(to right, #ff4ecd, #6a5cff);
+  color: white;
+}
+
+/* Products */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+.price {
+  color: #e91e63;
+  font-weight: bold;
+}
+
+button {
+  background: #6a5cff;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5748d6;
+}
+
+/* Contact */
+.contact {
+  text-align: center;
+  padding: 40px;
+  background: #111;
+  color: white;
+}
+
+.contact a {
+  color: pink;
+  text-decoration: none;
+}
